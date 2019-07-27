@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="questions" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="310.0" style="-fx-background-color: #2c344b;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.questionsController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="310.0" style="-fx-background-color: #2c344b;">
+         <children>
+            <AnchorPane accessibleRole="BUTTON" layoutY="419.0" prefHeight="48.0" prefWidth="310.0" style="-fx-background-color: #43bb73;">
+               <children>
+                  <Label fx:id="login" layoutX="100.0" layoutY="11.0" prefHeight="26.0" prefWidth="110.0" text="List Des Quizs" textFill="#fefefe">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="48.0" prefWidth="310.0" style="-fx-background-color: #2e354f;">
+               <children>
+                  <Label layoutX="124.0" layoutY="14.0" prefHeight="20.0" prefWidth="63.0" text="ESI Quiz" textFill="#8c90b3">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="20.0" fitWidth="19.0" layoutX="16.0" layoutY="13.0" onMouseClicked="#backHandler">
+                     <image>
+                        <Image url="@../images/left-arrow.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <Pane layoutX="20.0" layoutY="65.0" prefHeight="353.0" prefWidth="270.0">
+               <children>
+                  <AnchorPane prefHeight="50.0" prefWidth="270.0" style="-fx-border-color: #8c90b3; -fx-border-radius: 2;">
+                     <children>
+                        <Label layoutX="14.0" layoutY="15.0" text="Question 1 " textFill="#8c90b3">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutY="66.0" prefHeight="77.0" prefWidth="270.0" style="-fx-border-radius: 2;">
+                     <children>
+                        <Label text="Réponse 1 " textFill="#8c90b3">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="48.0" style="-fx-text-fill: #43bb73;" text="Réponse 1 " textFill="#8c90b3">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutY="24.0" text="Réponse 1 " textFill="#8c90b3">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Pane layoutY="150.0" prefHeight="353.0" prefWidth="270.0">
+                     <children>
+                        <AnchorPane prefHeight="50.0" prefWidth="270.0" style="-fx-border-color: #8c90b3; -fx-border-radius: 2;">
+                           <children>
+                              <Label layoutX="14.0" layoutY="15.0" text="Question 1 " textFill="#8c90b3">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutY="66.0" prefHeight="77.0" prefWidth="270.0" style="-fx-border-radius: 2;">
+                           <children>
+                              <Label text="Réponse 1 " textFill="#8c90b3">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutY="48.0" style="-fx-text-fill: #43bb73;" text="Réponse 1 " textFill="#8c90b3">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutY="24.0" text="Réponse 1 " textFill="#8c90b3">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+
+
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
